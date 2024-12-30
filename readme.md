@@ -11,10 +11,10 @@ Implementation of a lot of type with docstring documentation made has exercice t
 - C++ (Version depend on the list under this)
 
 ## All types implemented
-| Type name                | for C | for C++ | For python |          Folder           |
-|:-------------------------|:------|:--------|:-----------|:-------------------------:|
-| Linked list (single ptr) | X     | >v3     | X          | [▶](./src/linked_list/)  |
-| Dynamic Array            | X     | >v3     | X          | [▶](./src/dynamic_array/) |
+| Type name                | for C | for C++ | For python |          Folder            |
+|:-------------------------|:------|:--------|:-----------|:--------------------------:|
+| Linked list (single ptr) | X     | >v3     | X          | [▶](./src/cpp/chaine.cpp) |
+| Vector3                  | X     | >v98    | X          | [▶](./src/cpp/Vector3.cpp)|
 
 ## All type to implement :
 Legend:
@@ -30,20 +30,24 @@ Legend:
 
 | Type name                  | in C ? | in C++ ? | in Python ? |
 |:---------------------------|:------:|:--------:|:-----------:|
-| Linked list (double ptr)   |   ❌   |    ❌   |      ❌    |
-| Linked list (single ptr)   |   🔁   |    ✅   |      ❌    |
-| Dynamic Array              |   ❌   |    🔁   |      ❌    |
-| Binary tree                |   ❌   |    ❌   |      ❌    |
-| n-branch tree              |   ❌   |    ❌   |      ❌    |
-| graphs                     |   ❌   |    ❌   |      ❌    |
-| Vector2/Vector3            | 🔁 | 🔁 | 🔁 |
-| Queue FIFO                 | 🔁 | 🔁 | 🔁 |
-| Stack LIFO                 | 🔁 | 🔁 | 🔁 |
-| Deque (double-ended queue) | 🔁 | 🔁 | 🔁 |
+| Linked list (double ptr)   |   ❌   |    ❌   |      ❌     |
+| Linked list (single ptr)   |   🔁   |    ✅   |      ❌     |
+| Dynamic Array              |   ❌   |    🔁   |      ❌     |
+| Binary tree                |   ❌   |    ❌   |      ❌     |
+| n-branch tree              |   ❌   |    ❌   |      ❌     |
+| graphs                     |   ❌   |    ❌   |      ❌     |
+| Vector3                    |   ❌   |    ✅   |      ❌     |
+| Vector2                    |   ❌   |    ❌   |      ❌     |
+| Vector n                   |   ❌   |    ❌   |      ❌     |
+| Queue FIFO                 |   ❌   |    ❌   |      ❌     |
+| Stack LIFO                 |   ❌   |    ❌   |      ❌     |
+| Deque (double-ended queue) |   ❌   |    ❌   |      ❌     |
 
 ## Changelogs
 - **v1.0.0**
     - Added Linked list in single ptr
+- **v1.0.1**
+    - Added Vector3 type and documentation
 
 ## Music
 If you want to take a cup of coffee and see/review my code here one of my playlist with :
